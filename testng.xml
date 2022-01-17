@@ -3,10 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.mindtree.stepDefinitions.outstationStepDef"/>
-      <class name="com.mindtree.stepDefinitions.SigninStepDef"/>
-      <class name="com.mindtree.stepDefinitions.validpageStepDef"/>
-      <class name="com.mindtree.stepDefinitions.MyStepDefinitions"/>
+    <class name="com.mindtree.runner.BDDTestRunner" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
